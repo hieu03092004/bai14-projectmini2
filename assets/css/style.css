@@ -1,0 +1,169 @@
+/* Header */
+.header .inner-main{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-radius:45px;
+    background: #fff;
+}
+.header .inner-logo img{
+    height: 30px;
+    width: auto;
+}
+.header .inner-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* de cac item nam tren 1 hang da */
+}
+.header .inner-menu ul li{
+    margin-left: 25px;
+}
+.header .inner-menu ul li a{
+    font-size: 14px;
+    font-weight: 500;
+}
+.header .inner-menu ul li a.active{
+    color: var(--color-two);
+}
+.header{
+    position:fixed;
+    top:40px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+/* end header */
+
+
+/*  section one*/
+.section-one{
+    background-image: url(../image/banner-bg.png);
+    height:100vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center bottom;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* chieu cao cua background full chieu cao cua man hinh */
+}
+.section-one .inner-wrap{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section-one .inner-title{
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.section-one .inner-wrap .inner-desc{
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+/* end section one */
+
+/* section-two */
+.section-two{
+    margin-top: -220px;
+}
+.section-two .inner-box{
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    background: #fff;
+    border-radius: 15px;
+    padding:30px 30px;
+    text-align: center;
+}
+.section-two .inner-box .inner-icon{
+    background: var(--color-one);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    /* de chieu rong bang chieu rong cua content thoi */
+}
+.section-two .inner-box:hover .inner-icon{
+    background: var(--color-two);
+}
+.section-two .inner-box .inner-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.section-two .inner-box .inner-title{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.section-two .inner-box .inner-desc{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+/* end section-two */
+
+/* section-three */
+.section-three{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section-three .inner-image{
+    text-align: center;
+}
+.section-three .inner-image img{
+    max-width: 100%;
+    height: auto;
+}
+.section-three .inner-content .inner-title{
+   font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.section-three .inner-content .inner-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+ .section-three .inner-border-bottom{
+    border-bottom:1px solid #ddd;
+    padding-bottom: 80px;
+            margin-bottom: 50px;
+ }
+/* end section-three */
+
+
+/* blog-entries */
+.blog-entries{
+    padding-bottom: 80px;
+}
+.blog-entries .inner-image{
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.blog-entries .inner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-entries .inner-content{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+/* end blog-entries */
